@@ -141,6 +141,25 @@ The original MySQL dump is included here:
 
 The dump contains the original table definitions, foreign-key constraints, and sample data from the project.
 
+## Demonstration Queries
+
+I added a separate SQL file with example queries to show how the tables can be used together.
+
+[View the SQL demonstration queries](./queries/demonstration-queries.sql)
+
+The queries demonstrate:
+
+- Joining players with their teams and positions
+- Displaying career statistics and calculating per-game averages
+- Ranking teams by winning percentage
+- Counting players assigned to each team
+- Displaying the full league structure from division to team
+- Finding the players with the most career points
+- Comparing average statistics by position
+- Using a subquery to find players above the database average
+
+These queries were added later for the GitHub version of the project. They were not part of the original SQL dump, but they use the original tables and sample data.
+
 ## Importing the Database
 
 The original dump does not automatically create or select the database. Before importing it, create the database using:
@@ -170,7 +189,7 @@ Since this was one of my first SQL projects, it gave me a foundation that I late
 
 I originally completed this project in 2023 for a college database course.
 
-The original SQL dump is included without changing its schema or sample data. I added this README and the relationship diagram later to better document the project and make it easier for others to understand.
+The original SQL dump is included without changing its schema or sample data. I added this README, the relationship diagram, and the demonstration queries later to better document the project and make it easier for others to understand and use.
 
 ## Data Notes
 
@@ -180,10 +199,9 @@ Because this was an early college project, the original data also contains a few
 
 ## Future Improvements
 
-- Add useful SQL demonstration queries
-- Create queries that join players, teams, positions, and statistics
-- Add reports for team and player performance
+- Add screenshots of query results from MySQL Workbench
+- Create additional reports for team and player performance
 - Calculate player age automatically from the date of birth
 - Improve validation rules for statistical data
 - Create an updated and cleaned version of the database
-- Add screenshots from MySQL Workbench
+- Add more advanced examples using views and stored procedures
