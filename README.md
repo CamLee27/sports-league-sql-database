@@ -166,13 +166,13 @@ These queries were added later for the GitHub version of the project. They were 
 
 The original SQL dump was imported into MySQL Workbench. The screenshot below shows the `cl_sports_league` schema, all seven tables, and the 12 records stored in the `player` table.
 
-![MySQL Workbench showing the imported sports league database](./screenshots/01-database-import-verification.png)
+![MySQL Workbench showing the imported sports league database](./Screenshots/01-database-import-verification.png)
 
 ### Multi-Table Query
 
 This query joins the `player`, `team`, `position`, and `player_stats` tables to display each player's team, position, and career statistics in one result.
 
-![MySQL Workbench showing a query joining player, team, position, and statistics tables](./screenshots/02-player-team-position-statistics.png)
+![MySQL Workbench showing a query joining player, team, position, and statistics tables](./Screenshots/02-player-team-position-statistics.png)
 
 ## Importing the Database
 
